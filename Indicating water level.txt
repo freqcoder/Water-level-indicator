@@ -72,6 +72,6 @@ void measure()   //Trigering the ultrasonic sensor to check level of water
   tnk_lvl = map(resultCM, sensr_to_wtr, total_height, 100, 0);
   if (tnk_lvl > 100) tnk_lvl = 100;
   if (tnk_lvl < 0) tnk_lvl = 0;
-  
+ 
 
 }
